@@ -22,8 +22,8 @@ namespace Test
             base.OnAppearing();
 
 
-            //this is what I want to achieve which does not work. On iOS it works
-            //CrossMediaManager.Current.Play(new MediaItem("https://vjs.zencdn.net/v/oceans.mp4"), startAt: TimeSpan.FromMilliseconds(0), stopAt: TimeSpan.FromMilliseconds(2500));
+            //this is what I want to achieve. This does not work Android. On iOS it works
+            CrossMediaManager.Current.Play(new MediaItem("https://vjs.zencdn.net/v/oceans.mp4"), startAt: TimeSpan.FromMilliseconds(0), stopAt: TimeSpan.FromMilliseconds(2500));
 
             //this is what does not work either. On iOS it works
             //CrossMediaManager.Current.Play(new MediaItem("https://vjs.zencdn.net/v/oceans.mp4"));
