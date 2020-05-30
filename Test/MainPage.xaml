@@ -7,7 +7,9 @@
     
         <!-- Place new controls here -->
         <Grid HorizontalOptions="Fill" VerticalOptions="Fill" BackgroundColor="Firebrick">
-            <forms1:VideoView x:Name="VideoPlayer" 
+            <forms1:VideoView x:Name="VideoPlayer"
+                              Source="https://vjs.zencdn.net/v/oceans.mp4"
+                              AutoPlay="True"
                               VerticalOptions="Fill"
                               HorizontalOptions="Fill"
                               ShowControls="True"/>
